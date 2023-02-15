@@ -1,0 +1,30 @@
+
+:root{
+    --heading-color:#242463 ; /*For Headings*/
+    --background-color: #faaf40; /*For backgrounds*/
+    --text-color: #ee4036; /*For texts*/
+    --extra-color:#69678b ; /*Extra*/
+    --white: #FFFFFF; 
+   }
+
+   
+   .contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
+   }
+   h1{
+    color: var(--heading-color)
+   }
+   #form-row{
+    width: 50%;
+   }
+   .input-group{
+    align-items: center;
+   }
+   textarea{
+    height: 150px;
+   }
+
+   .btn{
+    background-color: var(--background-color);
+   }

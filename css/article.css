@@ -1,0 +1,40 @@
+
+:root{
+    --heading-color:#242463 ; /*For Headings*/
+    --background-color: #faaf40; /*For backgrounds*/
+    --text-color: #ee4036; /*For texts*/
+    --extra-color:#69678b ; /*Extra*/
+    --white: #FFFFFF; 
+   }
+.content a{
+    text-decoration: none;
+    color:var(--extra-color); 
+}
+.content span{
+    color:var(--text-color); 
+}
+.title{
+    color: var(--heading-color);
+    font-weight:bold;
+    font-size: 65px;
+}
+.article-content{
+    text-align: center;
+}
+
+
+.btn {
+    color: var(--text-color);
+    border-color: var(--background-color) !important;
+  }
+  
+  .btn:hover {
+    color: var(--text-color);
+  background-color: var(--background-color);
+  }
+  
+.card-comment, textarea{
+    margin-top: auto;
+    border: 0.5px solid var(--heading-color) !important;
+  }
+  

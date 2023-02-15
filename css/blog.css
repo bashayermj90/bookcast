@@ -1,0 +1,32 @@
+:root{
+    --heading-color:#242463 ; /*For Headings*/
+    --background-color: #faaf40; /*For backgrounds*/
+    --text-color: #ee4036; /*For texts*/
+    --extra-color:#69678b ; /*Extra*/
+    --white: #FFFFFF; 
+   }
+
+   
+#header{
+    text-align: center;
+    color: var(--heading-color);
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    color: var(--text-color);
+    border-color: var(--background-color) !important;
+  }
+  
+  .btn:hover {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+@media only screen and (min-width:820px) {
+    .column_card{
+        column-count: 5;
+    }
+  }
+  

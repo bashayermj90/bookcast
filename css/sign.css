@@ -1,0 +1,28 @@
+:root{
+    --heading-color:#242463 ; /*For Headings*/
+    --background-color: #faaf40; /*For backgrounds*/
+    --text-color: #ee4036; /*For texts*/
+    --extra-color:#69678b ; /*Extra*/
+    --white: #FFFFFF; 
+   }
+  
+
+#right{
+    float: right;
+    background-color:var(--background-color);
+}
+
+#left img{
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #right{
+    margin: 5px;
+    border-radius: 15px;
+  }
+    #left img{
+      display: none;
+    }  
+  }
+  

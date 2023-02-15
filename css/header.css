@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&family=Mukta:wght@400;700&display=swap');
+
+
+:root{
+  --heading-color:#242463 ; /*For Headings*/
+  --background-color: #faaf40; /*For backgrounds*/
+  --text-color: #ee4036; /*For texts*/
+  --extra-color:#69678b ; /*Extra*/
+  --white: #FFFFFF; 
+ }
+
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+body{
+  background-color: var(--white) !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-toggler i{
+  color:var(--background-color);
+  font-size: 1.2rem;
+  border: none;
+  }
+
+.navbar-brand h1{
+  font-size: 1.8rem;
+  color:var(--heading-color);
+}
+
+#navbarSupportedContent li a{
+  line-height: 1.5em;
+  color: #0000;
+  text-shadow: 0 0 var(--extra-color), 0 2em var(--text-color);
+  overflow: hidden;
+  transition: .3s;
+  margin-right:5px;
+}
+#navbarSupportedContent li a:hover{
+  text-decoration: none;
+  text-shadow: 0 -2em var(--extra-color), 0 0 var(--text-color);
+}
+
+.user a{
+color: var(--text-color);
+}
+.user a:hover{
+  color: var(--text-color);
+}
+#navbarSupportedContent .active a {
+ background-color: var(--background-color);
+ border-radius: 18px;
+}
+
+.content-direction{
+  font-size: 12px;
+}
+
+.content-direction a{
+  text-decoration: none;
+  color:var(--extra-color); 
+}
+.content-direction a:hover{
+  text-decoration: none;
+  color:var(--text-color); 
+}
+.content-direction span{
+  color:var(--heading-color); 
+}
+
+footer{ 
+  position:sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--extra-color);
+}
+
+@media only screen and (min-width:820px) {
+  .content-direction{
+   font-size: 20px; 
+  }
+}
